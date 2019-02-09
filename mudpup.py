@@ -1,8 +1,10 @@
 #Eric Bitikofer
-#02.10.17
-#This is a python program the scrapes the Ohio University Engineering Department
-# faculty directory for first name, last name, and email and transfers those values
-# into a database chosen by the user
+#02.8.19
+# This is a python program the scrapes the Athens Ohio Government hydrograph for
+# data regarding the water stage and flow rate and transfers those values
+# into a database and analyzes them
+
+# https://water.weather.gov/ahps2/hydrograph_to_xml.php?gage=atho1&output=tabular&time_zone=est
 
 import sqlite3                                # for database manipulation
 import urllib.request                         # for urlopen
